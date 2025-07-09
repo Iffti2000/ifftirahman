@@ -15,7 +15,7 @@ const Header = () => {
             Hi, <span className='text-[#ff0000]'><br className='hidden md:block' />I'm </span>Iffti
           </h1>
           <p className='text-white mt-5 text-base sm:text-lg md:text-xl'>
-            A Web Developer based in Dhaka
+            A Front-End Developer based in Dhaka
           </p>
 
           {/* Social Icons */}
