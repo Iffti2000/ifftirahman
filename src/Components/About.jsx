@@ -8,11 +8,7 @@ const About = () => {
         <h1 className='text-[#ff0000] pb-8 text-4xl sm:text-5xl font-bold'>Bio</h1>
 
         <p className='text-white text-base sm:text-lg leading-relaxed'>
-          I am a Front-End Developer focused on building modern, responsive, and interactive web applications using React.js, Tailwind CSS, and JavaScript.
-          <br className='hidden sm:block' /><br />
-          My current portfolio includes projects like a Real Estate Landing Page, a YouTube Clone, a Gemini AI-inspired search app, and a React Weather App.
-          <br className='hidden sm:block' /><br />
-          All fully deployed and available to review. I am continuously improving my skills and eager to work on challenging front-end projects.
+         I am a Front-End Developer helping founders and teams build clean, responsive web apps with React & Tailwind CSS. Developing Front-end that's fast, scalable, and startup-ready. My current portfolio includes projects like a Real Estate Landing Page, a YouTube Clone, a Gemini AI-inspired search app, and a React Weather App. <br /> All fully deployed and available to review. I am continuously improving my skills and eager to work on challenging front-end projects.
         </p>
 
       </div>
@@ -30,7 +26,7 @@ export default About
 //     <div className='bg-black  mt-[-300px]'>
 //       <div className=''>
 //       <h1 className='text-red-600 text-center pb-8 text-5xl font-bold'>Bio</h1>
-//       <p className='text-white text-center'>I am a Front-End Developer focused on building modern, responsive, and interactive web  applications using React.js, Tailwind CSS, and JavaScript.<br /> My current portfolio includes projects like  a Real Estate Landing Page, a YouTube Clone, a Gemini AI-inspired search app, and a React Weather App. <br /> All fully deployed and available to review. I am continuously improving my skills and eager to work on challenging front-end projects.</p>
+//       <p className='text-white text-center'>I am a Front-End Developer focused on building modern, responsive, and interactive web  applications using React.js, Tailwind CSS, and JavaScript.<br /> My current portfolio includes projects like a Real Estate Landing Page, a YouTube Clone, a Gemini AI-inspired search app, and a React Weather App. <br /> All fully deployed and available to review. I am continuously improving my skills and eager to work on challenging front-end projects.</p>
 //       </div>
       
 //     </div>
