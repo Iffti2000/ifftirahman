@@ -3,6 +3,7 @@ import my_img from '../assets/iffti.jpg';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -20,9 +21,9 @@ const Header = () => {
 
           {/* Social Icons */}
           <div className='flex justify-center md:justify-start pt-10 gap-6'>
-            <FaLinkedin className='text-[#ff0000] text-4xl sm:text-5xl' />
-            <FaGithub className='text-[#ff0000] text-4xl sm:text-5xl' />
-            <FaXTwitter className='text-[#ff0000] text-4xl sm:text-5xl' />
+            <a href='https://www.linkedin.com/in/sadbinrahmaniffti/' target='_blank'><FaLinkedin className='text-[#ff0000] text-4xl sm:text-5xl' /></a>
+            <a href='https://github.com/Iffti2000' target='_blank'><FaGithub className='text-[#ff0000] text-4xl sm:text-5xl' /></a>
+            <a href='https://x.com/iftirahman335' target='_blank'><FaXTwitter className='text-[#ff0000] text-4xl sm:text-5xl' /></a>
           </div>
         </div>
 

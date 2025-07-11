@@ -30,10 +30,10 @@ const Contact = () => {
   };
 
   return (
-    <div className='text-center p-6 py-5 lg:px-32 w-full overflow-hidden bg-black' id='contact'>
+    <div className='text-center p-6 lg:px-32 w-full overflow-hidden bg-black' id='contact'>
       <h1 className='text-white text-2xl sm:text-4xl font-bold mb-2 text-center py-4'>Contact <span className='text-[#ff0000]'>Me</span></h1>
 
-      <form onSubmit={onSubmit} className=' max-w-2xl mx-auto pt-10 bg-[#1a1a1a] px-10'>
+      <form onSubmit={onSubmit} className='max-w-2xl mx-auto pt-10 bg-[#1a1a1a] px-10'>
         <div className='flex flex-wrap'>
           <div className=' w-full md:w-1/2 text-left'>
           <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' name='Name' type="text" placeholder='Your Name' required/>
