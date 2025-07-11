@@ -3,9 +3,8 @@ import my_img from '../assets/iffti.jpg';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Hero = () => {
   return (
     <div className='bg-black h-full pt-20 px-4'>
       <div className='w-full flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto gap-10'>
@@ -38,6 +37,4 @@ const Header = () => {
   )
 }
 
-export default Header
-
-
+export default Hero
